@@ -1,0 +1,122 @@
+body{
+	
+	background-color: #0D0A46;
+	padding-left: 11em;
+	text-align:center
+}
+tbody{
+	border-collapse: collapse;
+	
+}
+ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 10em;
+	 
+}
+
+ul.navbar li {
+    background: white;
+	opacity: 0.8;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 4px solid black;
+}
+
+ul.navbar b{
+	font-style:italic;
+	font-size:24px;
+	
+}
+
+td{
+	font-style: normal;
+	font-family: Calibri;
+	border-left-color: aqua;
+}
+thead{
+	border-color: aqua;
+	
+}
+th{
+	background-color: cadetblue;
+	font-family: Calibri Light ;
+}
+
+ul.navbar a{
+	color:#000000;
+	font-size:18px;
+	font-family: Calibri;
+	
+}
+input{	
+	width: 193px;
+	height: 21px;
+	border-color: aqua;
+	border-style: none;
+	font-style: italic;
+}
+
+h1{
+	color:#FFFFFF;
+	font-family: Calibri;
+}
+p{
+	color:#FFFFFF;
+	font-style:oblique;
+	font-size:23px  ;
+}
+
+h2{
+	text-align:center;
+}
+
+
+
+div.centerTable{
+        text-align: center;
+		color:#ffffff;		
+		font-size:22px;	
+		
+} 
+
+div.centerTable table {
+       margin: 0 auto;
+       text-align: left;
+	   border: #000000 2px solid;
+	   background-color:#fff;	
+	   color: #000;
+	   opacity:0.9;
+		
+}
+
+div.centerTable table, td {
+	border: 1px solid black;
+	border-collapse: collapse
+		
+}
+
+div.centerTable thead,th{
+	text-align:center;
+	border: #000000 2px solid;
+	
+	
+}
+
+div.centerTable tbody{
+	border: #000000 2px solid;
+}
+
+a:link{
+	text-decoration:none;
+}
+.buttonsCrud button {
+	padding: 14px 28px;
+    font-size: 16px;
+	border: none;
+	margin-top: 1em;
+}
